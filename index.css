@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar{
+  width: 100%;
+ padding: 0;
+}
+.fbicon{
+  background-color: white;
+  color:blue;
+  padding: .5rem;
+  border: .05px solid blue;
+  box-shadow: -2px 36px 24px -35px rgba(0,0,0,0.75);
+  -webkit-box-shadow: -2px 36px 24px -35px rgba(0,0,0,0.75);
+  -moz-box-shadow: -2px 36px 24px -35px rgba(0,0,0,0.75);
+}
+@media (max-width:768px){
+  .left-b{
+    width: 100%;
+    display: block;
+  }
+  col{
+    width: 0;
+  }
+  .right-b{
+    width: 0px;
+    display:none;
+  }
+}
